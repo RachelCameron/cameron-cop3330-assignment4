@@ -36,7 +36,7 @@
             <Font size="15.0" />
          </font>
       </Button>
-      <Button fx:id="saveLoadExistingListsButton" layoutX="329.0" layoutY="297.0" mnemonicParsing="false" onAction="#saveLoadExistingListsButtonClicked" prefHeight="53.0" prefWidth="192.0" style="-fx-background-radius: 90;" text="SAVE/LOAD Existing Lists">
+      <Button fx:id="saveExistingListsButton" layoutX="329.0" layoutY="297.0" mnemonicParsing="false" onAction="#saveExistingListsButtonClicked" prefHeight="53.0" prefWidth="192.0" style="-fx-background-radius: 90;" text="SAVE Existing Lists">
          <font>
             <Font size="15.0" />
          </font>

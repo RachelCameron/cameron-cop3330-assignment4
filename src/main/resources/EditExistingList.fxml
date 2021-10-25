@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddNewListController">
+   <children>
+      <Button fx:id="backToStartupMenuButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToStartupMenuButtonClicked" prefHeight="39.0" prefWidth="158.0" style="-fx-background-radius: 90;" text="Back to Startup Menu">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="-21.0" layoutY="59.0" prefHeight="39.0" prefWidth="173.0" text="List Name:" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="107.0" layoutY="64.0" prefHeight="30.0" prefWidth="193.0" promptText="Name of your list.">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="-30.0" layoutY="140.0" prefHeight="39.0" prefWidth="182.0" text="Item Name:" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="editListNameButton" layoutX="133.0" layoutY="98.0" mnemonicParsing="false" onAction="#editListNameButtonClicked" prefHeight="30.0" prefWidth="142.0" style="-fx-background-radius: 90;" text="Edit List Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField layoutX="107.0" layoutY="145.0" prefHeight="30.0" prefWidth="193.0" promptText="Name of your item.">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="-30.0" layoutY="175.0" prefHeight="39.0" prefWidth="182.0" text="Description:" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="107.0" layoutY="180.0" prefHeight="30.0" prefWidth="193.0" promptText="Optional: Description of item.">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="-30.0" layoutY="210.0" prefHeight="39.0" prefWidth="182.0" text="Due Date:" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="107.0" layoutY="215.0" prefHeight="30.0" prefWidth="193.0" promptText="When your item is due.">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Button fx:id="editItemButton" layoutX="133.0" layoutY="249.0" mnemonicParsing="false" onAction="#editItemButtonClicked" prefHeight="30.0" prefWidth="142.0" style="-fx-background-radius: 90;" text="Edit Item">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TitledPane fx:id="YourList" layoutX="313.0" layoutY="14.0" prefHeight="339.0" prefWidth="273.0" text="Your List" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="313.0" prefHeight="30.0" prefWidth="294.0" text="When editing a list name, make sure you" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="328.0" prefHeight="30.0" prefWidth="294.0" text="select the list you want to rename first." textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="347.0" prefHeight="30.0" prefWidth="294.0" text="When editing an item, make sure you select" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="362.0" prefHeight="30.0" prefWidth="294.0" text="the item you want to edit first." textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="283.0" prefHeight="30.0" prefWidth="294.0" text="Use the list viewer to make selections. --&gt;" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="markItemCompleted" layoutX="313.0" layoutY="362.0" mnemonicParsing="false" onAction="#markItemCompletedClicked" prefHeight="30.0" prefWidth="158.0" style="-fx-background-radius: 90;" text="Mark Item Completed">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="removeItem" layoutX="476.0" layoutY="362.0" mnemonicParsing="false" onAction="#removeItemClicked" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 90;" text="Remove Item">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
