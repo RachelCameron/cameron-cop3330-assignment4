@@ -14,35 +14,30 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <Label alignment="CENTER" layoutX="52.0" layoutY="53.0" prefHeight="68.0" prefWidth="497.0" text="Please select the list you would like deleted." textAlignment="CENTER">
+      <Label alignment="CENTER" layoutX="52.0" layoutY="53.0" prefHeight="68.0" prefWidth="497.0" text="Please select the list you would like to save." textAlignment="CENTER">
          <font>
             <Font size="25.0" />
          </font>
       </Label>
       <SplitMenuButton fx:id="listSelect" layoutX="141.0" layoutY="113.0" mnemonicParsing="false" onAction="#listSelectClicked" prefHeight="30.0" prefWidth="319.0">
-        <items>
-          <MenuItem mnemonicParsing="false" text="Action 1" />
-          <MenuItem mnemonicParsing="false" text="Action 2" />
-        </items>
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
       </SplitMenuButton>
-      <Button fx:id="removeListButton" layoutX="206.0" layoutY="161.0" mnemonicParsing="false" onAction="#removeListButtonClicked" prefHeight="39.0" prefWidth="188.0" style="-fx-background-radius: 90;" text="Remove List">
+      <Button fx:id="saveListButton" layoutX="206.0" layoutY="161.0" mnemonicParsing="false" onAction="#saveListButtonClicked" prefHeight="39.0" prefWidth="188.0" style="-fx-background-radius: 90;" text="Save List">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Label alignment="CENTER" layoutX="53.0" layoutY="232.0" prefHeight="76.0" prefWidth="497.0" text="WARNING:" textAlignment="CENTER" textFill="RED">
+      <Label alignment="CENTER" layoutX="53.0" layoutY="232.0" prefHeight="76.0" prefWidth="497.0" textAlignment="CENTER" textFill="RED">
          <font>
             <Font size="40.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="52.0" layoutY="274.0" prefHeight="68.0" prefWidth="497.0" text="This action cannot be undone!" textAlignment="CENTER">
+      <Label alignment="CENTER" layoutX="59.0" layoutY="198.0" prefHeight="68.0" prefWidth="497.0" text="Make sure to verify the location in your file explorer." textAlignment="CENTER">
          <font>
-            <Font size="25.0" />
-         </font>
-      </Label>
-      <Label alignment="CENTER" layoutX="53.0" layoutY="308.0" prefHeight="68.0" prefWidth="497.0" text="Please choose carefully." textAlignment="CENTER">
-         <font>
-            <Font size="25.0" />
+            <Font size="20.0" />
          </font>
       </Label>
    </children>
