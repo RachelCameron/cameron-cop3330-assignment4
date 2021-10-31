@@ -13,7 +13,7 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <TitledPane fx:id="YourList" layoutX="13.0" layoutY="65.0" prefHeight="322.0" prefWidth="574.0" text="Your List" />
+      <TitledPane fx:id="yourList" layoutX="13.0" layoutY="65.0" prefHeight="322.0" prefWidth="574.0" text="Your List" />
       <Label alignment="CENTER" layoutX="214.0" layoutY="2.0" prefHeight="63.0" prefWidth="300.0" text="To Do List Viewer" textAlignment="CENTER">
          <font>
             <Font size="35.0" />

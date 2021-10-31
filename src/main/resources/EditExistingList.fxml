@@ -64,7 +64,7 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <TitledPane fx:id="YourList" layoutX="313.0" layoutY="14.0" prefHeight="339.0" prefWidth="273.0" text="Your List" />
+      <TitledPane fx:id="yourList" layoutX="313.0" layoutY="14.0" prefHeight="339.0" prefWidth="273.0" text="Your List" />
       <Label alignment="CENTER" layoutX="14.0" layoutY="313.0" prefHeight="30.0" prefWidth="294.0" text="When editing a list name, make sure you" textAlignment="CENTER">
          <font>
             <Font size="15.0" />
