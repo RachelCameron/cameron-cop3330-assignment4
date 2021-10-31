@@ -11,10 +11,26 @@ public class ViewExistingListsController {
     private Button backToStartupMenuButton;
 
     @FXML
+    private Button showCompleteItemsOnly;
+
+    @FXML
+    private Button showIncompleteItemsOnly;
+
+    @FXML
     private TitledPane yourList;
 
     @FXML
     void backToStartupMenuButtonClicked(ActionEvent event) {
+
+    }
+
+    @FXML
+    void showCompleteItemsOnlyClicked(ActionEvent event) {
+
+    }
+
+    @FXML
+    void showIncompleteItemsOnlyClicked(ActionEvent event) {
 
     }
 
