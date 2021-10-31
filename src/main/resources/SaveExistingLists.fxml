@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddNewListController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SaveExistingListsController">
    <children>
       <Button fx:id="backToStartupMenuButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToStartupMenuButtonClicked" prefHeight="39.0" prefWidth="158.0" style="-fx-background-radius: 90;" text="Back to Startup Menu">
          <font>

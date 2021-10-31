@@ -19,7 +19,7 @@
             <Font size="15.0" />
          </font>
       </Label>
-      <TextField layoutX="107.0" layoutY="64.0" prefHeight="30.0" prefWidth="193.0" promptText="Name of your list.">
+      <TextField fx:id="listNameField" layoutX="107.0" layoutY="64.0" prefHeight="30.0" prefWidth="193.0" promptText="Name of your list.">
          <font>
             <Font size="13.0" />
          </font>
@@ -34,7 +34,7 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <TextField layoutX="107.0" layoutY="145.0" prefHeight="30.0" prefWidth="193.0" promptText="Name of your item.">
+      <TextField fx:id="itemNameField" layoutX="107.0" layoutY="145.0" prefHeight="30.0" prefWidth="193.0" promptText="Name of your item.">
          <font>
             <Font size="13.0" />
          </font>
@@ -44,7 +44,7 @@
             <Font size="15.0" />
          </font>
       </Label>
-      <TextField layoutX="107.0" layoutY="180.0" prefHeight="30.0" prefWidth="193.0" promptText="Optional: Description of item.">
+      <TextField fx:id="itemDescriptionField" layoutX="107.0" layoutY="180.0" prefHeight="30.0" prefWidth="193.0" promptText="Optional: Description of item.">
          <font>
             <Font size="13.0" />
          </font>
@@ -54,7 +54,7 @@
             <Font size="15.0" />
          </font>
       </Label>
-      <TextField layoutX="107.0" layoutY="215.0" prefHeight="30.0" prefWidth="193.0" promptText="When your item is due.">
+      <TextField fx:id="itemDueDateField" layoutX="107.0" layoutY="215.0" prefHeight="30.0" prefWidth="193.0" promptText="When your item is due.">
          <font>
             <Font size="13.0" />
          </font>
