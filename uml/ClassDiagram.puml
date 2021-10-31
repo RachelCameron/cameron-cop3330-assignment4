@@ -1,11 +1,74 @@
 @startuml
-'https://plantuml.com/sequence-diagram
 
-autonumber
++class StartupController{
+-Button createNewListButton
+-Button editExistingListButton
+-Button removeExistingListButton
+-Button saveExistingListsButton
+-Button viewExistingListsButton
+void addNewListButtonClicked(ActionEvent event)
+void editExistingListButtonClicked(ActionEvent event)
+void removeExistingListButtonClicked(ActionEvent event)
+void saveExistingListsButtonClicked(ActionEvent event)
+void viewExistingListsButtonClicked(ActionEvent event)
+}
 
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
++class AddNewListController{
+-Button addItemButton
+-Button backToStartupMenuButton
+-Button importListButton
+-TextField itemDescriptionField
+-TextField itemDueDateField
+-TextField itemNameField
+-TextField listNameField
+-Button nameListButton
+-TitledPane yourList
+void addItemButtonClicked(ActionEvent event)
+void backToStartupMenuButtonClicked(ActionEvent event)
+void importListButtonClicked(ActionEvent event)
+void nameListButtonClicked(ActionEvent event)
+}
 
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: another authentication Response
++class EditExistingListController{
+-Button backToStartupMenuButton
+-Button editItemButton
+-Button editListNameButton
+-TextField itemDescriptionField
+-TextField itemDueDateField
+-TextField itemNameField
+-TextField listNameField
+-Button markItemCompleted
+-Button removeItem
+-TitledPane yourList
+void backToStartupMenuButtonClicked(ActionEvent event)
+void editItemButtonClicked(ActionEvent event)
+void editListNameButtonClicked(ActionEvent event)
+void markItemCompletedClicked(ActionEvent event)
+void removeItemClicked(ActionEvent event)
+}
+
++class RemoveExistingListController{
+-Button backToStartupMenuButton
+-SplitMenuButton listSelect
+-Button removeListButton
+void backToStartupMenuButtonClicked(ActionEvent event)
+void listSelectClicked(ActionEvent event)
+void removeListButtonClicked(ActionEvent event)
+}
+
++class SaveExistingListsController{
+-Button backToStartupMenuButton
+-SplitMenuButton listSelect
+-Button saveListButton
+void backToStartupMenuButtonClicked(ActionEvent event)
+void listSelectClicked(ActionEvent event)
+void saveListButtonClicked(ActionEvent event)
+}
+
++class ViewExistingListsController{
+-Button backToStartupMenuButton
+-TitledPane yourList
+void backToStartupMenuButtonClicked(ActionEvent event)
+}
+
 @enduml
