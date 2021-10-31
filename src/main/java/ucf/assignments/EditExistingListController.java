@@ -9,9 +9,6 @@ import javafx.scene.control.TitledPane;
 public class EditExistingListController {
 
     @FXML
-    private TitledPane YourList;
-
-    @FXML
     private Button backToStartupMenuButton;
 
     @FXML
@@ -37,6 +34,9 @@ public class EditExistingListController {
 
     @FXML
     private Button removeItem;
+
+    @FXML
+    private TitledPane yourList;
 
     @FXML
     void backToStartupMenuButtonClicked(ActionEvent event) {

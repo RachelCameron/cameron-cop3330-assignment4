@@ -9,9 +9,6 @@ import javafx.scene.control.TitledPane;
 public class AddNewListController {
 
     @FXML
-    private TitledPane YourList;
-
-    @FXML
     private Button addItemButton;
 
     @FXML
@@ -34,6 +31,9 @@ public class AddNewListController {
 
     @FXML
     private Button nameListButton;
+
+    @FXML
+    private TitledPane yourList;
 
     @FXML
     void addItemButtonClicked(ActionEvent event) {

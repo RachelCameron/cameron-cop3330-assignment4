@@ -8,10 +8,10 @@ import javafx.scene.control.TitledPane;
 public class ViewExistingListsController {
 
     @FXML
-    private TitledPane YourList;
+    private Button backToStartupMenuButton;
 
     @FXML
-    private Button backToStartupMenuButton;
+    private TitledPane yourList;
 
     @FXML
     void backToStartupMenuButtonClicked(ActionEvent event) {
