@@ -1,4 +1,17 @@
 package ucf.assignments;
 
-public class ViewExistingListsControllerTest {
+/*
+ *  UCF COP3330 Fall 2021 Assignment 4 Solution
+ *  Copyright 2021 Rachel Cameron
+ */
+
+import org.junit.jupiter.api.Test;
+
+class ViewExistingListsControllerTest {
+
+    @Test
+    void testName() {
+        //test
+    }
+
 }
