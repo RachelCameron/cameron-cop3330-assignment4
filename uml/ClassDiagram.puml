@@ -67,8 +67,12 @@ void saveListButtonClicked(ActionEvent event)
 
 +class ViewExistingListsController{
 -Button backToStartupMenuButton
+-Button showCompleteItemsOnly
+-Button showIncompleteItemsOnly
 -TitledPane yourList
 void backToStartupMenuButtonClicked(ActionEvent event)
+void showCompleteItemsOnlyClicked(ActionEvent event)
+void showIncompleteItemsOnlyClicked(ActionEvent event)
 }
 
 @enduml
