@@ -75,4 +75,10 @@ void showCompleteItemsOnlyClicked(ActionEvent event)
 void showIncompleteItemsOnlyClicked(ActionEvent event)
 }
 
+StartupController<-->AddNewListController
+StartupController<-->EditExistingListController
+StartupController<-->RemoveExistingListController
+StartupController<-->SaveExistingListsController
+StartupController<-->ViewExistingListsController
+
 @enduml
