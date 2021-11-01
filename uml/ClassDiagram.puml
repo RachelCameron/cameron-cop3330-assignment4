@@ -14,12 +14,16 @@ void viewExistingListsButtonClicked(ActionEvent event)
 }
 
 +class AddNewListController{
--Button addItemButton
++void loadSingleList(String fileName)
++void loadMultipleLists(String fileName)
++void addNewItem(String itemName, String itemDescription, String itemDueDate, Object list)
++void addNewList(String listName)
 -Button backToStartupMenuButton
 -Button importListButton
 -TextField itemDescriptionField
 -TextField itemDueDateField
 -TextField itemNameField
+-Button addItemButton
 -TextField listNameField
 -Button nameListButton
 -TitledPane yourList
@@ -30,13 +34,18 @@ void nameListButtonClicked(ActionEvent event)
 }
 
 +class EditExistingListController{
++void editListTitle(String listName)
++void editItemDescription(String itemDescription)
++void editItemDueDate(String itemDueDate)
++void markItemCompleted(String itemName, Object list)
++void removeItem(String itemName, Object list)
 -Button backToStartupMenuButton
--Button editItemButton
--Button editListNameButton
 -TextField itemDescriptionField
 -TextField itemDueDateField
 -TextField itemNameField
+-Button editItemButton
 -TextField listNameField
+-Button editListNameButton
 -Button markItemCompleted
 -Button removeItem
 -TitledPane yourList
@@ -48,6 +57,7 @@ void removeItemClicked(ActionEvent event)
 }
 
 +class RemoveExistingListController{
++void removeExistingList(String listName)
 -Button backToStartupMenuButton
 -SplitMenuButton listSelect
 -Button removeListButton
@@ -57,6 +67,8 @@ void removeListButtonClicked(ActionEvent event)
 }
 
 +class SaveExistingListsController{
++void saveItemsSingleList()
++void saveItemsMultipleLists()
 -Button backToStartupMenuButton
 -SplitMenuButton listSelect
 -Button saveListButton
@@ -66,6 +78,9 @@ void saveListButtonClicked(ActionEvent event)
 }
 
 +class ViewExistingListsController{
++void displayCompletedItems(Object completedList)
++void displayIncompletedItems(Object incompletedList)
++void displayExistingItems(Object list)
 -Button backToStartupMenuButton
 -Button showCompleteItemsOnly
 -Button showIncompleteItemsOnly
