@@ -33,12 +33,12 @@ public class RemoveExistingListController {
 
     @FXML
     void removeListButtonClicked(ActionEvent event) {
-        //removes the list(s) selected by the user
+        //calls removeExistingList()
     }
 
     //7. A user shall be able to remove an existing to-do list
-    public void removeExistingList() {
-        //test
+    public void removeExistingList(String listName) {
+        //removes the list(s) selected by the user
     }
 
 }

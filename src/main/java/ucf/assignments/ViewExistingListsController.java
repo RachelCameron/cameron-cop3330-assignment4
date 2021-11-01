@@ -25,12 +25,12 @@ public class ViewExistingListsController {
 
     @FXML
     void showCompleteItemsOnlyClicked(ActionEvent event) {
-        //only shows the completed items in the list viewer
+        //calls displayCompletedItems()
     }
 
     //16. A user shall be able to display only the completed items in a to-do list
-    public void displayCompletedItems() {
-        //test
+    public void displayCompletedItems(Object completedList) {
+        //only shows the completed items in the list viewer
     }
 
     @FXML
@@ -38,12 +38,12 @@ public class ViewExistingListsController {
 
     @FXML
     void showIncompleteItemsOnlyClicked(ActionEvent event) {
-        //only shows the incompleted items in the list viewer
+        //calls displayIncompletedItems()
     }
 
     //15. A user shall be able to display only the incompleted items in a to-do list
-    public void displayIncompletedItems() {
-        //test
+    public void displayIncompletedItems(Object incompletedList) {
+        //only shows the incompleted items in the list viewer
     }
 
     //1. The application shall be able to manage at least 100 unique to-do lists
@@ -52,8 +52,8 @@ public class ViewExistingListsController {
     private TitledPane yourList;
 
     //14. A user shall be able to display all of the existing items in a to-do list
-    public void displayExistingItems() {
-        //test
+    public void displayExistingItems(Object list) {
+        //shows all existing lists with their corresponding items in the list viewer
     }
 
 }

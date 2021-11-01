@@ -33,17 +33,20 @@ public class SaveExistingListsController {
 
     @FXML
     void saveListButtonClicked(ActionEvent event) {
-        //saves the list(s) selected by the user
+        //calls saveItemsSingleList() or saveItemsMultipleLists depending on user selection of list(s)
     }
 
     //17. A user shall be able to save all of the items in a single to-do list to external storage
     public void saveItemsSingleList() {
-        //test
+        //saves the list selected by the user
+        //makes new file, formats file, and writes into file
     }
 
     //18. A user shall be able to save all of the items across all of the to-do lists to external storage
     public void saveItemsMultipleLists() {
-        //test
+        //save lists selected by the user
+        //use loop to collect all the lists
+        //makes new file, formats file, and writes into file
     }
 
 }

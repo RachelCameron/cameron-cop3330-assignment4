@@ -40,22 +40,23 @@ public class EditExistingListController {
 
     @FXML
     void editItemButtonClicked(ActionEvent event) {
+        //calls editListTitle(), editItemDescription(),or editItemDueDate() depending on what the user changes
         //allows user to edit an item in an existing list populated with the above criteria (description, due date, name)
     }
 
     //8. A user shall be able to edit the title of an existing to-do list
-    public void editListTitle() {
-        //test
+    public void editListTitle(String listName) {
+        //allows user to edit the title of their list
     }
 
     //11. A user shall be able to edit the description of an item within an existing to-do list
-    public void editItemDescription() {
-        //test
+    public void editItemDescription(String itemDescription) {
+        //allows user to edit the description of their item
     }
 
     //12. A user shall be able to edit the due date of an item within an existing to-do list
-    public void editItemDueDate() {
-        //test
+    public void editItemDueDate(String itemDueDate) {
+        //allows user to edit the due date of their item
     }
 
     //2. A to-do list shall have a title
@@ -76,12 +77,12 @@ public class EditExistingListController {
 
     @FXML
     void markItemCompletedClicked(ActionEvent event) {
-
+        //calls markItemCompleted()
     }
 
     //13. A user shall be able to mark an item in a to-do list as complete
-    public void markItemCompleted() {
-        //test
+    public void markItemCompleted(String itemName, Object list) {
+        //allows user to mark an item on their list completed
     }
 
     @FXML
@@ -89,12 +90,12 @@ public class EditExistingListController {
 
     @FXML
     void removeItemClicked(ActionEvent event) {
-        //removes an item from an existing list
+        //calls removeItem()
     }
 
     //10. A user shall be able to remove an item from an existing to-do list
-    public void removeItem() {
-        //test
+    public void removeItem(String itemName, Object list) {
+        //removes an item from an existing list
     }
 
     //1. The application shall be able to manage at least 100 unique to-do lists

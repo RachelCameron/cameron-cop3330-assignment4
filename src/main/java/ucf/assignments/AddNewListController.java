@@ -26,17 +26,17 @@ public class AddNewListController {
 
     @FXML
     void importListButtonClicked(ActionEvent event) {
-        //imports list selected by user
+        //call loadSingleList or loadMultipleLists depending on how many lists are to be loaded
     }
 
     //19. A user shall be able to load a single to-do list that was previously saved to external storage
-    public void loadSingleList() {
-        //test
+    public void loadSingleList(String fileName) {
+        //imports list selected by user
     }
 
     //20. A user shall be able to load multiple to-do lists that were previous saved to external storage
-    public void loadMultipleLists() {
-        //test
+    public void loadMultipleLists(String fileName) {
+        //import lists selected by user
     }
 
     //4. An item shall have a description
@@ -58,12 +58,12 @@ public class AddNewListController {
 
     @FXML
     void addItemButtonClicked(ActionEvent event) {
-        //allows user to add an item to their list populated with the above criteria (description, due date, name)
+        //calls addNewItem()
     }
 
     //9. A user shall be able to add a new item to an existing to-do list
-    public void addNewItem() {
-        //test
+    public void addNewItem(String itemName, String itemDescription, String itemDueDate, Object list) {
+        //allows user to add an item to their list populated with the above criteria (description, due date, name)
     }
 
     //2. A to-do list shall have a title
@@ -76,12 +76,12 @@ public class AddNewListController {
 
     @FXML
     void nameListButtonClicked(ActionEvent event) {
-        //creates a new list with the given name entered
+        //calls addNewList()
     }
 
     //6. A user shall be able to add a new to-do list
-    public void addNewList() {
-        //test
+    public void addNewList(String listName) {
+        //creates a new list with the given name entered
     }
 
     //1. The application shall be able to manage at least 100 unique to-do lists
@@ -89,6 +89,6 @@ public class AddNewListController {
     @FXML
     private TitledPane yourList;
     //holds all the currently existing lists the user is able to interact with
-    //able to hold 100+ unique lists with room for 100+ unique items per list
+    // able to hold 100+ unique lists with room for 100+ unique items per list
 
 }
