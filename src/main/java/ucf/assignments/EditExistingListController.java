@@ -17,10 +17,25 @@ public class EditExistingListController {
     private Button backToStartupMenuButton;
 
     @FXML
+    void backToStartupMenuButtonClicked(ActionEvent event) {
+
+    }
+
+    @FXML
     private Button editItemButton;
 
     @FXML
+    void editItemButtonClicked(ActionEvent event) {
+
+    }
+
+    @FXML
     private Button editListNameButton;
+
+    @FXML
+    void editListNameButtonClicked(ActionEvent event) {
+
+    }
 
     @FXML
     private TextField itemDescriptionField;
@@ -38,34 +53,19 @@ public class EditExistingListController {
     private Button markItemCompleted;
 
     @FXML
-    private Button removeItem;
-
-    @FXML
-    private TitledPane yourList;
-
-    @FXML
-    void backToStartupMenuButtonClicked(ActionEvent event) {
-
-    }
-
-    @FXML
-    void editItemButtonClicked(ActionEvent event) {
-
-    }
-
-    @FXML
-    void editListNameButtonClicked(ActionEvent event) {
-
-    }
-
-    @FXML
     void markItemCompletedClicked(ActionEvent event) {
 
     }
 
     @FXML
+    private Button removeItem;
+
+    @FXML
     void removeItemClicked(ActionEvent event) {
 
     }
+
+    @FXML
+    private TitledPane yourList;
 
 }

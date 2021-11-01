@@ -15,21 +15,12 @@ public class StartupController {
     private Button addNewListButton;
 
     @FXML
-    private Button editExistingListButton;
-
-    @FXML
-    private Button removeExistingListButton;
-
-    @FXML
-    private Button saveExistingListsButton;
-
-    @FXML
-    private Button viewExistingListsButton;
-
-    @FXML
     void addNewListButtonClicked(ActionEvent event) {
 
     }
+
+    @FXML
+    private Button editExistingListButton;
 
     @FXML
     void editExistingListButtonClicked(ActionEvent event) {
@@ -37,14 +28,23 @@ public class StartupController {
     }
 
     @FXML
+    private Button removeExistingListButton;
+
+    @FXML
     void removeExistingListButtonClicked(ActionEvent event) {
 
     }
 
     @FXML
+    private Button saveExistingListsButton;
+
+    @FXML
     void saveExistingListsButtonClicked(ActionEvent event) {
 
     }
+
+    @FXML
+    private Button viewExistingListsButton;
 
     @FXML
     void viewExistingListsButtonClicked(ActionEvent event) {

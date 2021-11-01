@@ -16,20 +16,20 @@ public class RemoveExistingListController {
     private Button backToStartupMenuButton;
 
     @FXML
-    private SplitMenuButton listSelect;
-
-    @FXML
-    private Button removeListButton;
-
-    @FXML
     void backToStartupMenuButtonClicked(ActionEvent event) {
 
     }
 
     @FXML
+    private SplitMenuButton listSelect;
+
+    @FXML
     void listSelectClicked(ActionEvent event) {
 
     }
+
+    @FXML
+    private Button removeListButton;
 
     @FXML
     void removeListButtonClicked(ActionEvent event) {

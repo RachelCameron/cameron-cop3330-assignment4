@@ -17,10 +17,25 @@ public class AddNewListController {
     private Button addItemButton;
 
     @FXML
+    void addItemButtonClicked(ActionEvent event) {
+
+    }
+
+    @FXML
     private Button backToStartupMenuButton;
 
     @FXML
+    void backToStartupMenuButtonClicked(ActionEvent event) {
+
+    }
+
+    @FXML
     private Button importListButton;
+
+    @FXML
+    void importListButtonClicked(ActionEvent event) {
+
+    }
 
     @FXML
     private TextField itemDescriptionField;
@@ -38,26 +53,11 @@ public class AddNewListController {
     private Button nameListButton;
 
     @FXML
-    private TitledPane yourList;
-
-    @FXML
-    void addItemButtonClicked(ActionEvent event) {
-
-    }
-
-    @FXML
-    void backToStartupMenuButtonClicked(ActionEvent event) {
-
-    }
-
-    @FXML
-    void importListButtonClicked(ActionEvent event) {
-
-    }
-
-    @FXML
     void nameListButtonClicked(ActionEvent event) {
 
     }
+
+    @FXML
+    private TitledPane yourList;
 
 }

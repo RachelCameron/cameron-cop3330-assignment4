@@ -16,20 +16,20 @@ public class SaveExistingListsController {
     private Button backToStartupMenuButton;
 
     @FXML
-    private SplitMenuButton listSelect;
-
-    @FXML
-    private Button saveListButton;
-
-    @FXML
     void backToStartupMenuButtonClicked(ActionEvent event) {
 
     }
 
     @FXML
+    private SplitMenuButton listSelect;
+
+    @FXML
     void listSelectClicked(ActionEvent event) {
 
     }
+
+    @FXML
+    private Button saveListButton;
 
     @FXML
     void saveListButtonClicked(ActionEvent event) {

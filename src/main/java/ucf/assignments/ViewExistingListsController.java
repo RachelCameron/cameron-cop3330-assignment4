@@ -16,18 +16,12 @@ public class ViewExistingListsController {
     private Button backToStartupMenuButton;
 
     @FXML
-    private Button showCompleteItemsOnly;
-
-    @FXML
-    private Button showIncompleteItemsOnly;
-
-    @FXML
-    private TitledPane yourList;
-
-    @FXML
     void backToStartupMenuButtonClicked(ActionEvent event) {
 
     }
+
+    @FXML
+    private Button showCompleteItemsOnly;
 
     @FXML
     void showCompleteItemsOnlyClicked(ActionEvent event) {
@@ -35,8 +29,14 @@ public class ViewExistingListsController {
     }
 
     @FXML
+    private Button showIncompleteItemsOnly;
+
+    @FXML
     void showIncompleteItemsOnlyClicked(ActionEvent event) {
 
     }
+
+    @FXML
+    private TitledPane yourList;
 
 }
