@@ -11,31 +11,31 @@ class EditExistingListControllerTest {
 
     //8. A user shall be able to edit the title of an existing todo list
     @Test
-    void editListTitle() {
+    void editListTitleTest() {
         //test
     }
 
     //10. A user shall be able to remove an item from an existing todo list
     @Test
-    void removeItem() {
+    void removeItemTest() {
         //test
     }
 
     //11. A user shall be able to edit the description of an item within an existing todo list
     @Test
-    void editItemDescription() {
+    void editItemDescriptionTest() {
         //test
     }
 
     //12. A user shall be able to edit the due date of an item within an existing todo list
     @Test
-    void editItemDueDate() {
+    void editItemDueDateTest() {
         //test
     }
 
     //13. A user shall be able to mark an item in a todo list as complete
     @Test
-    void markItemCompleted() {
+    void markItemCompletedTest() {
         //test
     }
 }
