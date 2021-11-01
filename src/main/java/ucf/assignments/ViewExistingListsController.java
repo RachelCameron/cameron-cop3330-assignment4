@@ -17,7 +17,7 @@ public class ViewExistingListsController {
 
     @FXML
     void backToStartupMenuButtonClicked(ActionEvent event) {
-
+        //takes the user back to the startup menu
     }
 
     @FXML
@@ -25,7 +25,7 @@ public class ViewExistingListsController {
 
     @FXML
     void showCompleteItemsOnlyClicked(ActionEvent event) {
-
+        //only shows the completed items in the list viewer
     }
 
     //16. A user shall be able to display only the completed items in a to-do list
@@ -38,7 +38,7 @@ public class ViewExistingListsController {
 
     @FXML
     void showIncompleteItemsOnlyClicked(ActionEvent event) {
-
+        //only shows the incompleted items in the list viewer
     }
 
     //15. A user shall be able to display only the incompleted items in a to-do list

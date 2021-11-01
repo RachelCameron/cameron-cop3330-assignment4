@@ -17,7 +17,7 @@ public class RemoveExistingListController {
 
     @FXML
     void backToStartupMenuButtonClicked(ActionEvent event) {
-
+        //takes the user back to the startup menu
     }
 
     @FXML
@@ -25,7 +25,7 @@ public class RemoveExistingListController {
 
     @FXML
     void listSelectClicked(ActionEvent event) {
-
+        //allows user to select one or more lists
     }
 
     @FXML
@@ -33,7 +33,7 @@ public class RemoveExistingListController {
 
     @FXML
     void removeListButtonClicked(ActionEvent event) {
-
+        //removes the list(s) selected by the user
     }
 
     //7. A user shall be able to remove an existing to-do list

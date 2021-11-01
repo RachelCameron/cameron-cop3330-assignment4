@@ -18,24 +18,29 @@ public class EditExistingListController {
 
     @FXML
     void backToStartupMenuButtonClicked(ActionEvent event) {
-
+        //takes the user back to the startup menu
     }
 
+    //4. An item shall have a description
     @FXML
     private TextField itemDescriptionField;
+    //allows user to optionally give their item a description
 
+    //5. An item shall have a due date, formatted as YYYY-MM-DD
     @FXML
     private TextField itemDueDateField;
+    //requires user to give their item a due date in the format of YYYY-MM-DD
 
     @FXML
     private TextField itemNameField;
+    //requires user to give their item a name
 
     @FXML
     private Button editItemButton;
 
     @FXML
     void editItemButtonClicked(ActionEvent event) {
-
+        //allows user to edit an item in an existing list populated with the above criteria (description, due date, name)
     }
 
     //8. A user shall be able to edit the title of an existing to-do list
@@ -53,15 +58,17 @@ public class EditExistingListController {
         //test
     }
 
+    //2. A to-do list shall have a title
     @FXML
     private TextField listNameField;
+    //requires user to give their list a name
 
     @FXML
     private Button editListNameButton;
 
     @FXML
     void editListNameButtonClicked(ActionEvent event) {
-
+        //edits an existing list with the given name entered
     }
 
     @FXML
@@ -82,7 +89,7 @@ public class EditExistingListController {
 
     @FXML
     void removeItemClicked(ActionEvent event) {
-
+        //removes an item from an existing list
     }
 
     //10. A user shall be able to remove an item from an existing to-do list
@@ -94,5 +101,7 @@ public class EditExistingListController {
     //3. A to-do list shall have the capacity to store at least 100 unique items
     @FXML
     private TitledPane yourList;
+    //holds all the currently existing lists the user is able to interact with
+    //able to hold 100+ unique lists with room for 100+ unique items per list
 
 }

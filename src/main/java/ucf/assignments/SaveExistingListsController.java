@@ -17,7 +17,7 @@ public class SaveExistingListsController {
 
     @FXML
     void backToStartupMenuButtonClicked(ActionEvent event) {
-
+        //takes the user back to the startup menu
     }
 
     @FXML
@@ -25,7 +25,7 @@ public class SaveExistingListsController {
 
     @FXML
     void listSelectClicked(ActionEvent event) {
-
+        //allows user to select one or more lists
     }
 
     @FXML
@@ -33,7 +33,7 @@ public class SaveExistingListsController {
 
     @FXML
     void saveListButtonClicked(ActionEvent event) {
-
+        //saves the list(s) selected by the user
     }
 
     //17. A user shall be able to save all of the items in a single to-do list to external storage

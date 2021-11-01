@@ -16,7 +16,7 @@ public class StartupController {
 
     @FXML
     void addNewListButtonClicked(ActionEvent event) {
-
+        //takes user to the AddNewList screen
     }
 
     @FXML
@@ -24,7 +24,7 @@ public class StartupController {
 
     @FXML
     void editExistingListButtonClicked(ActionEvent event) {
-
+        //takes user to the EditExistingList screen
     }
 
     @FXML
@@ -32,7 +32,7 @@ public class StartupController {
 
     @FXML
     void removeExistingListButtonClicked(ActionEvent event) {
-
+        //takes user to the RemoveExistingList screen
     }
 
     @FXML
@@ -40,7 +40,7 @@ public class StartupController {
 
     @FXML
     void saveExistingListsButtonClicked(ActionEvent event) {
-
+        //takes user to the SaveExistingLists screen
     }
 
     @FXML
@@ -48,7 +48,7 @@ public class StartupController {
 
     @FXML
     void viewExistingListsButtonClicked(ActionEvent event) {
-
+        //takes user to the ViewExistingLists screen
     }
 
 }
