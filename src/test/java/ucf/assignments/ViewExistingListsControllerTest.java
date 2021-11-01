@@ -9,9 +9,21 @@ import org.junit.jupiter.api.Test;
 
 class ViewExistingListsControllerTest {
 
+    //14. A user shall be able to display all of the existing items in a todo list
     @Test
-    void testName() {
+    void displayExistingItems() {
         //test
     }
 
+    //15. A user shall be able to display only the incompleted items in a todo list
+    @Test
+    void displayIncompletedItems() {
+        //test
+    }
+
+    //16. A user shall be able to display only the completed items in a todo list
+    @Test
+    void displayCompletedItems() {
+        //test
+    }
 }
