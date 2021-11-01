@@ -9,14 +9,14 @@ import org.junit.jupiter.api.Test;
 
 class SaveExistingListsControllerTest {
 
-    //17. A user shall be able to save all of the items in a single todo list to external storage
+    //17. A user shall be able to save all of the items in a single to-do list to external storage
     @Test
     void saveItemsSingleListTest() {
         //test
     }
 
+    //18. A user shall be able to save all of the items across all of the to-do lists to external storage
     @Test
-    //18. A user shall be able to save all of the items across all of the todo lists to external storage
     void saveItemsMultipleListsTest() {
         //test
     }

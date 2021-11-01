@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 class RemoveExistingListControllerTest {
 
-    //7. A user shall be able to remove an existing todo list
+    //7. A user shall be able to remove an existing to-do list
     @Test
     void removeExistingListTest() {
         //test

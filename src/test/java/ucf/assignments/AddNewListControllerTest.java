@@ -9,26 +9,26 @@ import org.junit.jupiter.api.Test;
 
 class AddNewListControllerTest {
 
-    //6. A user shall be able to add a new todo list
+    //6. A user shall be able to add a new to-do list
     @Test
     void addNewListTest() {
         //test
     }
 
-    //9. A user shall be able to add a new item to an existing todo list
+    //9. A user shall be able to add a new item to an existing to-do list
     @Test
     void addNewItemTest() {
         //test
     }
 
-    //19. A user shall be able to load a single todo list that was previously saved to external storage
+    //19. A user shall be able to load a single to-do list that was previously saved to external storage
     @Test
     void loadSingleListTest() {
         //test
     }
 
+    //20. A user shall be able to load multiple to-do lists that were previous saved to external storage
     @Test
-        //20. A user shall be able to load multiple todo lists that were previous saved to external storage
     void loadMultipleListsTest() {
         //test
     }

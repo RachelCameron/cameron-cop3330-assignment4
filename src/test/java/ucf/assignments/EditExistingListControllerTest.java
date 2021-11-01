@@ -9,31 +9,31 @@ import org.junit.jupiter.api.Test;
 
 class EditExistingListControllerTest {
 
-    //8. A user shall be able to edit the title of an existing todo list
+    //8. A user shall be able to edit the title of an existing to-do list
     @Test
     void editListTitleTest() {
         //test
     }
 
-    //10. A user shall be able to remove an item from an existing todo list
+    //10. A user shall be able to remove an item from an existing to-do list
     @Test
     void removeItemTest() {
         //test
     }
 
-    //11. A user shall be able to edit the description of an item within an existing todo list
+    //11. A user shall be able to edit the description of an item within an existing to-do list
     @Test
     void editItemDescriptionTest() {
         //test
     }
 
-    //12. A user shall be able to edit the due date of an item within an existing todo list
+    //12. A user shall be able to edit the due date of an item within an existing to-do list
     @Test
     void editItemDueDateTest() {
         //test
     }
 
-    //13. A user shall be able to mark an item in a todo list as complete
+    //13. A user shall be able to mark an item in a to-do list as complete
     @Test
     void markItemCompletedTest() {
         //test
