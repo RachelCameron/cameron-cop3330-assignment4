@@ -36,6 +36,8 @@ public class ViewExistingListsController {
 
     }
 
+    //1. The application shall be able to manage at least 100 unique todo lists
+    //3. A todo list shall have the capacity to store at least 100 unique items
     @FXML
     private TitledPane yourList;
 

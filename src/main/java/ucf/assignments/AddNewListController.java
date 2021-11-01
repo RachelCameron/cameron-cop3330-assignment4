@@ -14,14 +14,6 @@ import javafx.scene.control.TitledPane;
 public class AddNewListController {
 
     @FXML
-    private Button addItemButton;
-
-    @FXML
-    void addItemButtonClicked(ActionEvent event) {
-
-    }
-
-    @FXML
     private Button backToStartupMenuButton;
 
     @FXML
@@ -37,15 +29,41 @@ public class AddNewListController {
 
     }
 
+    //19. A user shall be able to load a single todo list that was previously saved to external storage
+    public void loadSingleList() {
+        //test
+    }
+
+    //20. A user shall be able to load multiple todo lists that were previous saved to external storage
+    public void loadMultipleLists() {
+        //test
+    }
+
+    //4. An item shall have a description
     @FXML
     private TextField itemDescriptionField;
 
+    //5. An item shall have a due date, formatted as YYYY-MM-DD
     @FXML
     private TextField itemDueDateField;
 
     @FXML
     private TextField itemNameField;
 
+    @FXML
+    private Button addItemButton;
+
+    @FXML
+    void addItemButtonClicked(ActionEvent event) {
+
+    }
+
+    //9. A user shall be able to add a new item to an existing todo list
+    public void addNewItem() {
+        //test
+    }
+
+    //2. A todo list shall have a title
     @FXML
     private TextField listNameField;
 
@@ -57,6 +75,13 @@ public class AddNewListController {
 
     }
 
+    //6. A user shall be able to add a new todo list
+    public void addNewList() {
+        //test
+    }
+
+    //1. The application shall be able to manage at least 100 unique todo lists
+    //3. A todo list shall have the capacity to store at least 100 unique items
     @FXML
     private TitledPane yourList;
 
