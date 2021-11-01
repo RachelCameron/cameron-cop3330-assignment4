@@ -12,13 +12,19 @@ class SaveExistingListsControllerTest {
     //17. A user shall be able to save all of the items in a single to-do list to external storage
     @Test
     void saveItemsSingleListTest() {
-        //test
+        //call saveItemsSingleList
+        //convert list contents to string
+        //use assertions to verify actual vs expected outputs
+        //if they match, passes test
     }
 
     //18. A user shall be able to save all of the items across all of the to-do lists to external storage
     @Test
     void saveItemsMultipleListsTest() {
-        //test
+        //call saveItemsMultipleLists
+        //convert list contents to string
+        //use assertions to verify actual vs expected outputs
+        //if they match, passes test
     }
 
 }

@@ -12,7 +12,9 @@ class RemoveExistingListControllerTest {
     //7. A user shall be able to remove an existing to-do list
     @Test
     void removeExistingListTest() {
-        //test
+        //call removeExistingList
+        //use assertions to verify actual list length against expected list length
+        //if they match, passes test
     }
 
 }

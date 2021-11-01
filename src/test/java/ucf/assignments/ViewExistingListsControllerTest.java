@@ -12,19 +12,25 @@ class ViewExistingListsControllerTest {
     //14. A user shall be able to display all of the existing items in a to-do list
     @Test
     void displayExistingItemsTest() {
-        //test
+        //call displayExistingItems
+        //use test array to assert actual vs expected outputs
+        //if they match, passes test
     }
 
     //15. A user shall be able to display only the incompleted items in a to-do list
     @Test
     void displayIncompletedItemsTest() {
-        //test
+        //call displayIncompletedItems
+        //use test array to assert actual vs expected outputs
+        //if they match, passes test
     }
 
     //16. A user shall be able to display only the completed items in a to-do list
     @Test
     void displayCompletedItemsTest() {
-        //test
+        //call displayCompletedItems
+        //use test array to assert actual vs expected outputs
+        //if they match, passes test
     }
 
 }

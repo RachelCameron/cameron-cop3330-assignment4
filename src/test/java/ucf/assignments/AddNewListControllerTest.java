@@ -12,25 +12,34 @@ class AddNewListControllerTest {
     //6. A user shall be able to add a new to-do list
     @Test
     void addNewListTest() {
-        //test
+        //call addNewList
+        //use assertions to verify actual list length against expected list length
+        //if they match, passes test
     }
 
     //9. A user shall be able to add a new item to an existing to-do list
     @Test
     void addNewItemTest() {
-        //test
+        //call addNewItem
+        //check to see if the item name/description/due date exists within list via loop
+        //if the loop successfully finds item, passes test
     }
 
     //19. A user shall be able to load a single to-do list that was previously saved to external storage
     @Test
     void loadSingleListTest() {
-        //test
+        //call loadSingleList
+        //use assertions to verify actual list output against expected list output
+        //if they match, passes test
     }
 
     //20. A user shall be able to load multiple to-do lists that were previous saved to external storage
     @Test
     void loadMultipleListsTest() {
-        //test
+        //call loadMultipleLists
+        //use loop to handle multiple lists
+        //use assertions to verify actual list outputs against expected list outputs
+        //if they match, passes test
     }
 
 }
