@@ -29,12 +29,12 @@ public class AddNewListController {
 
     }
 
-    //19. A user shall be able to load a single todo list that was previously saved to external storage
+    //19. A user shall be able to load a single to-do list that was previously saved to external storage
     public void loadSingleList() {
         //test
     }
 
-    //20. A user shall be able to load multiple todo lists that were previous saved to external storage
+    //20. A user shall be able to load multiple to-do lists that were previous saved to external storage
     public void loadMultipleLists() {
         //test
     }
@@ -58,12 +58,12 @@ public class AddNewListController {
 
     }
 
-    //9. A user shall be able to add a new item to an existing todo list
+    //9. A user shall be able to add a new item to an existing to-do list
     public void addNewItem() {
         //test
     }
 
-    //2. A todo list shall have a title
+    //2. A to-do list shall have a title
     @FXML
     private TextField listNameField;
 
@@ -75,13 +75,13 @@ public class AddNewListController {
 
     }
 
-    //6. A user shall be able to add a new todo list
+    //6. A user shall be able to add a new to-do list
     public void addNewList() {
         //test
     }
 
-    //1. The application shall be able to manage at least 100 unique todo lists
-    //3. A todo list shall have the capacity to store at least 100 unique items
+    //1. The application shall be able to manage at least 100 unique to-do lists
+    //3. A to-do list shall have the capacity to store at least 100 unique items
     @FXML
     private TitledPane yourList;
 

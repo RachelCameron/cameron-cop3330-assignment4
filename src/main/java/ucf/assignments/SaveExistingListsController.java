@@ -36,4 +36,14 @@ public class SaveExistingListsController {
 
     }
 
+    //17. A user shall be able to save all of the items in a single to-do list to external storage
+    public void saveItemsSingleList() {
+        //test
+    }
+
+    //18. A user shall be able to save all of the items across all of the to-do lists to external storage
+    public void saveItemsMultipleLists() {
+        //test
+    }
+
 }

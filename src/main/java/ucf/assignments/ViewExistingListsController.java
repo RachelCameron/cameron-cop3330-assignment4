@@ -28,6 +28,11 @@ public class ViewExistingListsController {
 
     }
 
+    //16. A user shall be able to display only the completed items in a to-do list
+    public void displayCompletedItems() {
+        //test
+    }
+
     @FXML
     private Button showIncompleteItemsOnly;
 
@@ -36,9 +41,19 @@ public class ViewExistingListsController {
 
     }
 
-    //1. The application shall be able to manage at least 100 unique todo lists
-    //3. A todo list shall have the capacity to store at least 100 unique items
+    //15. A user shall be able to display only the incompleted items in a to-do list
+    public void displayIncompletedItems() {
+        //test
+    }
+
+    //1. The application shall be able to manage at least 100 unique to-do lists
+    //3. A to-do list shall have the capacity to store at least 100 unique items
     @FXML
     private TitledPane yourList;
+
+    //14. A user shall be able to display all of the existing items in a to-do list
+    public void displayExistingItems() {
+        //test
+    }
 
 }

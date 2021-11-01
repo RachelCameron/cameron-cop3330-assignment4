@@ -36,4 +36,9 @@ public class RemoveExistingListController {
 
     }
 
+    //7. A user shall be able to remove an existing to-do list
+    public void removeExistingList() {
+        //test
+    }
+
 }

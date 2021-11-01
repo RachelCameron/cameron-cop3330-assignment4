@@ -22,12 +22,39 @@ public class EditExistingListController {
     }
 
     @FXML
+    private TextField itemDescriptionField;
+
+    @FXML
+    private TextField itemDueDateField;
+
+    @FXML
+    private TextField itemNameField;
+
+    @FXML
     private Button editItemButton;
 
     @FXML
     void editItemButtonClicked(ActionEvent event) {
 
     }
+
+    //8. A user shall be able to edit the title of an existing to-do list
+    public void editListTitle() {
+        //test
+    }
+
+    //11. A user shall be able to edit the description of an item within an existing to-do list
+    public void editItemDescription() {
+        //test
+    }
+
+    //12. A user shall be able to edit the due date of an item within an existing to-do list
+    public void editItemDueDate() {
+        //test
+    }
+
+    @FXML
+    private TextField listNameField;
 
     @FXML
     private Button editListNameButton;
@@ -38,23 +65,16 @@ public class EditExistingListController {
     }
 
     @FXML
-    private TextField itemDescriptionField;
-
-    @FXML
-    private TextField itemDueDateField;
-
-    @FXML
-    private TextField itemNameField;
-
-    @FXML
-    private TextField listNameField;
-
-    @FXML
     private Button markItemCompleted;
 
     @FXML
     void markItemCompletedClicked(ActionEvent event) {
 
+    }
+
+    //13. A user shall be able to mark an item in a to-do list as complete
+    public void markItemCompleted() {
+        //test
     }
 
     @FXML
@@ -65,8 +85,13 @@ public class EditExistingListController {
 
     }
 
-    //1. The application shall be able to manage at least 100 unique todo lists
-    //3. A todo list shall have the capacity to store at least 100 unique items
+    //10. A user shall be able to remove an item from an existing to-do list
+    public void removeItem() {
+        //test
+    }
+
+    //1. The application shall be able to manage at least 100 unique to-do lists
+    //3. A to-do list shall have the capacity to store at least 100 unique items
     @FXML
     private TitledPane yourList;
 
